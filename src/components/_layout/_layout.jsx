@@ -1,10 +1,5 @@
 import React from "react";
 import { Layout, Menu } from "antd";
-import {
-  UploadOutlined,
-  UserOutlined,
-  VideoCameraOutlined,
-} from "@ant-design/icons";
 import _Sider from "./sider";
 import _Header from "./header";
 import _Content from "./content";
