@@ -5,7 +5,12 @@ const MenuItem = (props) => {
   return (
     <div className="row">
       <div className="row">
-        <div className="col">
+        <div
+          className="col"
+          style={{
+            padding: "1em 1em 1em 1em",
+          }}
+        >
           <div className="d-inline align-text-bottom pe-1">
             <span>{props.icon}</span>
           </div>{" "}

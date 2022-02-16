@@ -1,8 +1,11 @@
 import {
   CalendarFilled,
+  CalendarOutlined,
   DashboardFilled,
+  DashboardOutlined,
   FileDoneOutlined,
   ProjectFilled,
+  ProjectOutlined,
   SettingOutlined,
 } from "@ant-design/icons";
 import React from "react";
@@ -12,9 +15,9 @@ const Menu = () => {
   return (
     <div className="row">
       {/* Menu Items */}
-      <MenuItem icon={<DashboardFilled />} title="Dashboard" />
-      <MenuItem icon={<ProjectFilled />} title="Projects" />
-      <MenuItem icon={<CalendarFilled />} title="Calendar" />
+      <MenuItem icon={<DashboardOutlined />} title="Dashboard" />
+      <MenuItem icon={<ProjectOutlined />} title="Projects" />
+      <MenuItem icon={<CalendarOutlined />} title="Calendar" />
       <MenuItem icon={<FileDoneOutlined />} title="Dashboard" />
       <MenuItem icon={<SettingOutlined />} title="Settings" />
     </div>
